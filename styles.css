@@ -1,0 +1,16 @@
+#type, #prompt, #generate-button {
+    padding: 10px 20px;
+    background-color: #FFF;
+    border-radius: 20px;
+    border: 2px solid #1F3326;
+}
+#generate-button:hover {
+    background-color: #DDD;
+}
+#generate-button:active {
+    background-color: #AAA;
+}
+
+#user-input {
+    align-self: center;
+}

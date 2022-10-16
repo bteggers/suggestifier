@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Suggestifier</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Suggestifier</h1>
+    </div>
+    
+    <div class = "main">
+        <p>Generate an improv suggestion (a word or a quote) based on a given prompt!</p>
+        <form id="user-input">
+            <select id="type">
+                <option value="default"><em>--Suggestion Type--</em></option>
+                <option value="word">Words</option>
+                <option value="quote">Quotes</option>
+            </select>
+            <input id="prompt" type="text" placeholder="Suggestion Prompt">
+            <input id="generate-button" type="submit" value="Generate!">
+        </form>
+        
+        <div id="warning"></div>
+        <div id="suggestion-list"></div>
+    </div>
+    <div class = "footer">
+        
+    </div>
+</body>
+
+<script text="type/javascript" src="script.js"></script>
+</html>
